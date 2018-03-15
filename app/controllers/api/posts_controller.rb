@@ -39,5 +39,3 @@ class Api::PostsController < ApplicationController
       params.require(:post).permit(:name, :description, :price, :author, :version, :logo, :category, :featured)
     end
 end
-
-end
